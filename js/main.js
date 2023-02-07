@@ -23,8 +23,8 @@ window.addEventListener('scroll', _.throttle(function () {
 }, 300));
 
 
-toTopEl.addEventListener('click',function() {
-  gsap.to(window , .7, {
+toTopEl.addEventListener('click', function () {
+  gsap.to(window, .7, {
     scrollTo: 0
   });
 })
@@ -59,12 +59,12 @@ new Swiper('.promotion .swiper-container', {
     nextEl: '.promotion .swiper-next'
   }
 });
-new Swiper('.awards .swiper-container',{
+new Swiper('.awards .swiper-container', {
   autoplay: true,
   loop: true,
-  spaceBetween:30,
-  slidesPerView:5,
-  navigation:{
+  spaceBetween: 30,
+  slidesPerView: 5,
+  navigation: {
     prevEl: '.awards .swiper-prev',
     nextEl: '.awards .swiper-next'
   }

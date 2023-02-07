@@ -13,5 +13,5 @@ searchInputEl.addEventListener('blur', function () {
   searchInputEl.setAttribute('placeholder', '');
 });
 
-const thisYear = document.querySelector('this-year');
+const thisYear = document.querySelector('.this-year');
 thisYear.textContent = new Date().getFullYear();

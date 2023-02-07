@@ -1,3 +1,17 @@
+/* BADGES */
+header .badges {
+  position: absolute;
+  top: 132px;
+  right: 12px;
+}
+
+header .badges .badge {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, .15);
+  cursor: pointer;
+}
 /* VISUAL */
 .visual {
   margin-top: 120px;
@@ -57,8 +71,6 @@
 
 
 /* NOTICE */
-.notice {}
-
 .notice .notice-line {
   position: relative
 }
@@ -397,8 +409,6 @@
   width: 400px;
   position: relative;
 }
-
-.season-product .text-group .more .btn {}
 
 /* RESERVE COFFEE */
 .reserve-coffee {
